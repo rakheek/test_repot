@@ -21,7 +21,7 @@ def parse_into_dict(log_file):
         if(re.match(r"\d+-\d+-\d+", splitLine[0])):
             my_dict.update({'Date':"%s %s" %(splitLine[0], splitLine[1])})
             my_dict.update({'Info':splitLine[5]})
-            print my_dict
+            pprint(my_dict)
             json.dump(my_dict, f_out)
         else:
             pass        
