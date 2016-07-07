@@ -28,4 +28,5 @@ def parse_into_dict(log_file):
     pprint(my_dict)
 if '__main__':
     log_file = sys.argv[0]
+#   Adding a module to read log file
     parse_into_dict(log_file)
