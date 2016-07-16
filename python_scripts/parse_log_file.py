@@ -26,6 +26,10 @@ def parse_into_dict(log_file):
         else:
             pass        
     pprint(my_dict)
+
+def new_func():
+    print "This is test"
+
 if '__main__':
     log_file = sys.argv[0]
 #   Adding a module to read log file
